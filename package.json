@@ -1,0 +1,23 @@
+{
+  "name": "umi-tauri-app",
+  "license": "MIT",
+  "scripts": {
+    "dev": "umi dev",
+    "build": "umi build",
+    "postinstall": "umi setup",
+    "setup": "umi setup",
+    "start": "npm run dev",
+    "tauri:dev": "tauri dev",
+    "tauri:build": "tauri build",
+    "tauri:build-debug": "tauri build --debug"
+  },
+  "dependencies": {
+    "umi": "^4.0.8"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.0.5",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "typescript": "^4.1.2"
+  }
+}
